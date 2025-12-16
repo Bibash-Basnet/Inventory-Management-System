@@ -1,0 +1,127 @@
+﻿@model Inventory.Models.DTO.Auth.UserLoginDto
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="center-content">
+    <div class="form-container">
+        <div class="text-center mb-4">
+            <h3 class="mt-2">Sign In</h3>
+            <p class="text-muted">Access your inventory system</p>
+        </div>
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger alert-dismissible fade show">
+                <i class="bi bi-exclamation-circle"></i> @ViewBag.Error
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show">
+                <i class="bi bi-check-circle"></i> @TempData["Success"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+
+        <form method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="mb-3">
+                <label class="form-label">
+                    <i class="bi bi-person"></i> Username
+                </label>
+                <input asp-for="Username" class="form-control" placeholder="Enter your username" required />
+                <span asp-validation-for="Username" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">
+                    <i class="bi bi-lock"></i> Password
+                </label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Enter your password" required />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 mb-3">
+                <i class="bi bi-box-arrow-in-right"></i> Login
+            </button>
+        </form>
+
+        <div class="text-center mt-3">
+            <small class="text-muted">
+                Don't have an account?
+                <a href="/Auth/Register" class="fw-bold">Create one</a>
+            </small>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <style>
+        .role-option {
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            padding: 15px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+            .role-option:hover {
+                border-color: #0d6efd;
+                background-color: #f8f9fa;
+            }
+
+            .role-option input[type="radio"]:checked ~ label {
+                color: #0d6efd;
+            }
+
+                .role-option input[type="radio"]:checked ~ label .bi-check-circle {
+                    display: inline-block !important;
+                }
+
+            .role-option label {
+                cursor: pointer;
+                margin-bottom: 0;
+            }
+
+        .form-check-input {
+            display: none;
+        }
+
+        .role-option input[type="radio"]:checked ~ label {
+            font-weight: 600;
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const roleRadios = document.querySelectorAll('input[name="role"]');
+            const hiddenRoleInput = document.getElementById('selectedRole');
+
+            roleRadios.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    hiddenRoleInput.value = this.value;
+
+                    document.querySelectorAll('.role-option').forEach(option => {
+                        option.style.borderColor = '#dee2e6';
+                        option.style.backgroundColor = 'transparent';
+                    });
+
+                    if (this.checked) {
+                        const parentOption = this.closest('.role-option');
+                        parentOption.style.borderColor = '#0d6efd';
+                        parentOption.style.backgroundColor = '#e7f3ff';
+                    }
+                });
+            });
+
+            const checkedRadio = document.querySelector('input[name="role"]:checked');
+            if (checkedRadio) {
+                checkedRadio.dispatchEvent(new Event('change'));
+            }
+        });
+    </script>
+}

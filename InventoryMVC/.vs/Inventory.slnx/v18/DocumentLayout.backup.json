@@ -1,0 +1,441 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\views\\product\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\views\\product\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\models\\dto\\auth\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\models\\dto\\auth\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\models\\paginatedproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\models\\paginatedproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\models\\dto\\product\\productupatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\models\\dto\\product\\productupatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\models\\dto\\product\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\models\\dto\\product\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\models\\dto\\product\\productviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\models\\dto\\product\\productviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\models\\dto\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\models\\dto\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\models\\dto\\auth\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\models\\dto\\auth\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\services\\iapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\services\\iapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\inventory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\inventory.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventorymvc\\inventory.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1521AB9E-5920-441D-B4FE-D8C9EB5DA8A4}|Inventory.MVC\\Inventory.csproj|solutionrelative:inventory.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Inventory.MVC\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:55:56.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\AdminIndex.cshtml",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Views\\Product\\AdminIndex.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\AdminIndex.cshtml",
+              "RelativeToolTip": "Inventory.MVC\\Views\\Product\\AdminIndex.cshtml",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAAABsBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T15:48:31.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Inventory.MVC\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAIAwwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T04:22:51.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "Inventory.MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\appsettings.json",
+              "RelativeToolTip": "Inventory.MVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-05T04:45:46.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Inventory.MVC\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T10:54:56.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Program.cs",
+              "RelativeToolTip": "Inventory.MVC\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T04:49:07.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Services\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Services\\ApiClient.cs",
+              "RelativeToolTip": "Inventory.MVC\\Services\\ApiClient.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAIwGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:57:52.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Inventory.MVC\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAcwKkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T15:29:20.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Inventory.MVC\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAACwBAAAAAAAAAAAAAD4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T09:13:20.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Auth\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Models\\DTO\\Auth\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Auth\\UserLoginDto.cs",
+              "RelativeToolTip": "Inventory.MVC\\Models\\DTO\\Auth\\UserLoginDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T15:31:30.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaginatedProductResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\PaginatedProductResponse.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Models\\PaginatedProductResponse.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\PaginatedProductResponse.cs",
+              "RelativeToolTip": "Inventory.MVC\\Models\\PaginatedProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T16:40:41.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductUpateDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Product\\ProductUpateDto.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Models\\DTO\\Product\\ProductUpateDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Product\\ProductUpateDto.cs",
+              "RelativeToolTip": "Inventory.MVC\\Models\\DTO\\Product\\ProductUpateDto.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA5wDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:57:37.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Inventory.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-12T16:27:26.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Product\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Models\\DTO\\Product\\ProductCreateDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Product\\ProductCreateDto.cs",
+              "RelativeToolTip": "Inventory.MVC\\Models\\DTO\\Product\\ProductCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:57:25.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Inventory.MVC\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAkwHsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T11:00:15.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductViewDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Product\\ProductViewDto.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Models\\DTO\\Product\\ProductViewDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Product\\ProductViewDto.cs",
+              "RelativeToolTip": "Inventory.MVC\\Models\\DTO\\Product\\ProductViewDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T04:26:45.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Auth\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Models\\DTO\\Auth\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Auth\\AuthResponseDto.cs",
+              "RelativeToolTip": "Inventory.MVC\\Models\\DTO\\Auth\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T15:31:17.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Auth\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Models\\DTO\\Auth\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\DTO\\Auth\\UserRegisterDto.cs",
+              "RelativeToolTip": "Inventory.MVC\\Models\\DTO\\Auth\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T15:31:42.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "Inventory.MVC\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAANMAAAAAAAAAAAAkwOwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-05T04:25:12.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Inventory.MVC\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwFAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-08T16:44:38.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Inventory.MVC\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAkwL4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T15:34:34.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Services\\IApiClient.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Services\\IApiClient.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Services\\IApiClient.cs",
+              "RelativeToolTip": "Inventory.MVC\\Services\\IApiClient.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:57:58.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Inventory.MVC\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Inventory.MVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAOkBAAAAAAAAAAAAwO8BAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-05T04:16:41.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Inventory.csproj",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Inventory.csproj",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Inventory.csproj",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Inventory.csproj",
+              "RelativeToolTip": "Inventory.MVC\\Inventory.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T14:47:47.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Inventory.MVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:57:51.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Inventory.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryMVC\\Inventory.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Inventory.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T10:55:00.783Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+﻿@model Inventory.Models.DTO.Product.ProductCreateDto
+@{
+    ViewData["Title"] = "Add New Product";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="mb-3">
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="bi bi-arrow-left"></i> Back to Products
+                </a>
+            </div>
+
+            @if (TempData["Error"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show">
+                    @TempData["Error"]
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            }
+
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h4 class="mb-0"><i class="bi bi-plus-circle"></i> Add New Product</h4>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        @Html.AntiForgeryToken()
+                        <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label">Product Name <span class="text-danger">*</span></label>
+                            <input asp-for="Name" class="form-control" placeholder="Enter product name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label">Description</label>
+                            <textarea asp-for="Description" class="form-control" rows="3" placeholder="Enter product description"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Price" class="form-label">Price <span class="text-danger">*</span></label>
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input asp-for="Price" type="number" step="0.01" class="form-control" placeholder="0.00" />
+                                </div>
+                                <span asp-validation-for="Price" class="text-danger"></span>
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label asp-for="Quantity" class="form-label">Quantity <span class="text-danger">*</span></label>
+                                <input asp-for="Quantity" type="number" class="form-control" placeholder="0" />
+                                <span asp-validation-for="Quantity" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Images" class="form-label">Product Images</label>
+                            <input asp-for="Images" type="file" class="form-control" accept="image/*" multiple id="imagesInput" />
+                            <div class="form-text">Select one or more images (JPG, PNG, GIF, WEBP - Max 5MB each)</div>
+                            <span asp-validation-for="Images" class="text-danger"></span>
+
+                            <!-- Preview container -->
+                            <div id="imagesPreview" class="d-flex flex-wrap gap-2 mt-2"></div>
+                        </div>
+
+                        <div class="d-flex gap-2 justify-content-end">
+                            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                            <button type="submit" class="btn btn-success">
+                                <i class="bi bi-check-circle"></i> Create Product
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Preview images before upload
+        document.getElementById('imagesInput').addEventListener('change', function(e) {
+            const previewContainer = document.getElementById('imagesPreview');
+            previewContainer.innerHTML = '';
+
+            const files = e.target.files;
+            if (files.length > 0) {
+                for (let i = 0; i < files.length; i++) {
+                    const file = files[i];
+
+                    // Validate file size
+                    if (file.size > 5 * 1024 * 1024) {
+                        alert(`File ${file.name} is too large. Maximum size is 5MB.`);
+                        continue;
+                    }
+
+                    const reader = new FileReader();
+                    reader.onload = function(event) {
+                        const div = document.createElement('div');
+                        div.className = 'position-relative';
+                        div.innerHTML = `
+                            <img src="${event.target.result}"
+                                 class="img-thumbnail"
+                                 style="width: 150px; height: 150px; object-fit: cover;"
+                                 alt="Preview">
+                            <span class="badge bg-success position-absolute top-0 start-0 m-1">New</span>
+                        `;
+                        previewContainer.appendChild(div);
+                    };
+                    reader.readAsDataURL(file);
+                }
+            }
+        });
+    </script>
+}

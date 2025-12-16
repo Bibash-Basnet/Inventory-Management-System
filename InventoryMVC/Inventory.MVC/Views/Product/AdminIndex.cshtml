@@ -1,0 +1,306 @@
+﻿@using Inventory.Models
+@model PaginatedProductResponse
+@{
+    ViewData["Title"] = "Product Management (Admin)";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><i class="bi bi-gear"></i> Product Management</h2>
+        <a asp-action="Create" class="btn btn-success">
+            <i class="bi bi-plus-circle"></i> Add New Product
+        </a>
+    </div>
+
+    <!-- ✅ ADD: Search Box -->
+    <div class="card mb-3">
+        <div class="card-body">
+            <form asp-action="Index" method="get" class="row g-3">
+                <div class="col-md-10">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="bi bi-search"></i></span>
+                        <input type="text"
+                               name="search"
+                               class="form-control"
+                               placeholder="Search products by name..."
+                               value="@ViewBag.SearchQuery">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="bi bi-search"></i> Search
+                    </button>
+                </div>
+            </form>
+            @if (!string.IsNullOrEmpty(ViewBag.SearchQuery))
+            {
+                <div class="mt-2">
+                    <span class="text-muted">Searching for: <strong>@ViewBag.SearchQuery</strong></span>
+                    <a asp-action="Index" class="btn btn-sm btn-outline-secondary ms-2">
+                        <i class="bi bi-x-circle"></i> Clear
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show">
+            @TempData["Success"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show">
+            @TempData["Error"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (Model.Products == null || !Model.Products.Any())
+    {
+        <div class="text-center py-5">
+            <i class="bi bi-inbox" style="font-size: 4rem; color: #ccc;"></i>
+            <h4 class="text-muted mt-3">No Products Yet</h4>
+            <a asp-action="Create" class="btn btn-success mt-3">
+                <i class="bi bi-plus-circle"></i> Add Your First Product
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="mb-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <span class="text-muted">
+                    <i class="bi bi-box-seam"></i> Total Products: <strong>@Model.TotalCount</strong>
+                </span>
+                <span class="badge bg-primary">Page @Model.CurrentPage of @Model.TotalPages</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0 admin-table">
+                        <thead class="table-dark">
+                            <tr>
+                                <th style="width: 100px;">Image</th>
+                                <th>Product Name</th>
+                                <th style="width: 250px;">Description</th>
+                                <th style="width: 120px;">Price</th>
+                                <th style="width: 100px;">Quantity</th>
+                                <th style="width: 100px;">Status</th>
+                                <th style="width: 200px;" class="text-center">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var product in Model.Products)
+                            {
+                                <tr>
+                                    <td>
+                                        @if (product.Images != null && product.Images.Any())
+                                        {
+                                            <img src="@Url.Content("https://localhost:7105" + product.Images.First().ImageUrl)"
+                                                 class="product-thumbnail"
+                                                 alt="@product.Name"
+                                                 data-bs-toggle="tooltip"
+                                                 title="Click to view details">
+                                        }
+                                        else
+                                        {
+                                            <div class="product-thumbnail no-image">
+                                                <i class="bi bi-image"></i>
+                                            </div>
+                                        }
+                                    </td>
+                                    <td>
+                                        <strong>@product.Name</strong>
+                                        <br />
+                                        <small class="text-muted">ID: #@product.Id</small>
+                                    </td>
+                                    <td>
+                                        <span class="description-cell">
+                                            @(string.IsNullOrEmpty(product.Description) ? "—" : product.Description)
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="text-success fw-bold">$@product.Price.ToString("N2")</span>
+                                    </td>
+                                    <td class="text-center">
+                                        <span class="badge bg-secondary fs-6">@product.Quantity</span>
+                                    </td>
+                                    <td>
+                                        @if (product.Quantity == 0)
+                                        {
+                                            <span class="badge bg-danger">Out of Stock</span>
+                                        }
+                                        else if (product.Quantity < 10)
+                                        {
+                                            <span class="badge bg-warning text-dark">Low Stock</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-success">In Stock</span>
+                                        }
+                                    </td>
+                                    <td class="text-center">
+                                        <div class="btn-group btn-group-sm" role="group">
+                                            <a asp-action="Details"
+                                               asp-route-id="@product.Id"
+                                               class="btn btn-outline-info"
+                                               data-bs-toggle="tooltip"
+                                               title="View Details">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                            <a asp-action="Edit"
+                                               asp-route-id="@product.Id"
+                                               class="btn btn-outline-warning"
+                                               data-bs-toggle="tooltip"
+                                               title="Edit Product">
+                                                <i class="bi bi-pencil"></i>
+                                            </a>
+                                            <button type="button"
+                                                    class="btn btn-outline-danger"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#deleteModal@(product.Id)"
+                                                    title="Delete Product">
+                                                <i class="bi bi-trash"></i>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <div class="modal fade" id="deleteModal@(product.Id)" tabindex="-1">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header bg-danger text-white">
+                                                <h5 class="modal-title">
+                                                    <i class="bi bi-exclamation-triangle"></i> Confirm Delete
+                                                </h5>
+                                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="text-center mb-3">
+                                                    @if (product.Images != null && product.Images.Any())
+                                                    {
+                                                        <img src="@Url.Content("https://localhost:7105" + product.Images.First().ImageUrl)"
+                                                             class="img-thumbnail"
+                                                             style="max-width: 150px;"
+                                                             alt="@product.Name">
+                                                    }
+                                                </div>
+                                                <p class="mb-2">Are you sure you want to delete:</p>
+                                                <h5 class="text-primary">@product.Name</h5>
+                                                <p class="text-muted mb-2">
+                                                    <strong>Price:</strong> $@product.Price.ToString("N2") |
+                                                    <strong>Qty:</strong> @product.Quantity
+                                                </p>
+                                                <div class="alert alert-warning">
+                                                    <i class="bi bi-exclamation-circle"></i> This action cannot be undone!
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                                <form asp-action="Delete" asp-route-id="@product.Id" method="post" class="d-inline">
+                                                    @Html.AntiForgeryToken()
+                                                    <button type="submit" class="btn btn-danger">
+                                                        <i class="bi bi-trash"></i> Delete Product
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        @if (Model.TotalPages > 1)
+        {
+            <nav aria-label="Product pagination" class="mt-4">
+                <ul class="pagination justify-content-center">
+
+                    <li class="page-item @(Model.CurrentPage == 1 ? "disabled" : "")">
+                        @* <a class="page-link" asp-action="Index" asp-route-pageNumber="1" aria-label="First"> *@
+                        <a class="page-link" asp-action="Index" asp-route-pageNumber="1" asp-route-search="@ViewBag.SearchQuery" aria-label="First">
+                            First
+                        </a>
+                    </li>
+
+                    <li class="page-item @(!Model.HasPreviousPage ? "disabled" : "")">
+                        <a class="page-link"
+                           asp-action="Index"
+                           asp-route-pageNumber="@(Model.CurrentPage - 1)"
+                           asp-route-search="@ViewBag.SearchQuery"
+                           aria-label="Previous">
+                            Previous
+                        </a>
+                    </li>
+
+                    @{
+                        int startPage = Math.Max(1, Model.CurrentPage - 2);
+                        int endPage = Math.Min(Model.TotalPages, Model.CurrentPage + 2);
+
+                        if (startPage > 1)
+                        {
+                            <li class="page-item disabled">
+                                <span class="page-link">...</span>
+                            </li>
+                        }
+
+                        for (int i = startPage; i <= endPage; i++)
+                        {
+                            <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                                <a class="page-link" asp-action="Index" asp-route-pageNumber="@i" asp-route-search="@ViewBag.SearchQuery">@i</a>
+                            </li>
+                        }
+
+                        if (endPage < Model.TotalPages)
+                        {
+                            <li class="page-item disabled">
+                                <span class="page-link">...</span>
+                            </li>
+                        }
+                    }
+
+                    <li class="page-item @(!Model.HasNextPage ? "disabled" : "")">
+                        <a class="page-link"
+                           asp-action="Index"
+                           asp-route-pageNumber="@(Model.CurrentPage + 1)"
+                           asp-route-search="@ViewBag.SearchQuery"
+                           aria-label="Next">
+                            Next
+                        </a>
+                    </li>
+
+                    <li class="page-item @(Model.CurrentPage == Model.TotalPages ? "disabled" : "")">
+                        <a class="page-link" asp-action="Index" asp-route-pageNumber="@Model.TotalPages" asp-route-search="@ViewBag.SearchQuery"  aria-label="Last">
+                            Last
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="text-center text-muted small mb-4">
+                Page @Model.CurrentPage of @Model.TotalPages (@Model.TotalCount total products)
+            </div>
+        }
+    }
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+    </script>
+}

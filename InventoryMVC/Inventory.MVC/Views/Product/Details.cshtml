@@ -1,0 +1,237 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor Accessor
+@model Inventory.Models.DTO.Product.ProductViewDto
+@{
+    ViewData["Title"] = "Product Details";
+    var role = Accessor.HttpContext?.Session.GetString("Role");
+    bool isAdmin = role == "Admin";
+}
+
+<div class="container mt-4">
+    <div class="mb-3">
+        <a asp-action="Index" class="btn btn-outline-secondary">
+            <i class="bi bi-arrow-left"></i> Back to Products
+        </a>
+    </div>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show">
+            @TempData["Success"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show">
+            @TempData["Error"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="row">
+        <!-- Product Images with Carousel -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                @if (Model.Images != null && Model.Images.Any())
+                {
+                    <!-- Image Carousel -->
+                    <div id="productCarousel" class="carousel slide">
+                        <div class="carousel-inner image-zoom-container">
+                            @for (int i = 0; i < Model.Images.Count; i++)
+                            {
+                                <div class="carousel-item @(i == 0 ? "active" : "")">
+                                    <img src="@Url.Content("https://localhost:7105" + Model.Images[i].ImageUrl)"
+                                         class="d-block w-100 zoomable-image"
+                                         style="height: 400px; object-fit: contain; background: #f8f9fa;"
+                                         alt="@Model.Name">
+                                    <div class="zoom-lens"></div>
+                                </div>
+                            }
+                        </div>
+
+                        <!-- Carousel Controls (Left/Right Arrows) -->
+                        @if (Model.Images.Count > 1)
+                        {
+                            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+
+                            <!-- Carousel Indicators (Dots) -->
+                            <div class="carousel-indicators">
+                                @for (int i = 0; i < Model.Images.Count; i++)
+                                {
+                                    <button type="button"
+                                            data-bs-target="#productCarousel"
+                                            data-bs-slide-to="@i"
+                                            class="@(i == 0 ? "active" : "")">
+                                    </button>
+                                }
+                            </div>
+                        }
+                    </div>
+                }
+                else
+                {
+                    <img src="https://via.placeholder.com/500x500?text=No+Image"
+                         class="card-img-top"
+                         style="height: 400px; object-fit: contain;"
+                         alt="No Image">
+                }
+            </div>
+        </div>
+
+        <!-- Product Info -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h2>@Model.Name</h2>
+
+                    <div class="my-3">
+                        @if (Model.Quantity == 0)
+                        {
+                            <span class="badge bg-danger">Out of Stock</span>
+                        }
+                        else if (Model.Quantity < 10)
+                        {
+                            <span class="badge bg-warning">Low Stock</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-success">In Stock</span>
+                        }
+                    </div>
+
+                    <h3 class="text-primary mb-3">$@Model.Price.ToString("N2")</h3>
+
+                    @if (!string.IsNullOrEmpty(Model.Description))
+                    {
+                        <p class="text-muted mb-4">@Model.Description</p>
+                    }
+
+                    <div class="mb-4">
+                        <p><strong>Product ID:</strong> #@Model.Id</p>
+                        <p><strong>Quantity:</strong> @Model.Quantity units</p>
+                        <p><strong>Images:</strong> @(Model.Images?.Count ?? 0)</p>
+                    </div>
+
+                    @if (isAdmin)
+                    {
+                        <div class="d-grid gap-2">
+                            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                                <i class="bi bi-pencil"></i> Edit Product
+                            </a>
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                                <i class="bi bi-trash"></i> Delete Product
+                            </button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (isAdmin)
+{
+    <!-- Delete Modal (Admin Only) -->
+    <div class="modal fade" id="deleteModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title">
+                        <i class="bi bi-exclamation-triangle"></i> Confirm Delete
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Delete <strong>@Model.Name</strong>?</p>
+                    <p class="text-muted">This cannot be undone.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <form asp-action="Delete" asp-route-id="@Model.Id" method="post" class="d-inline">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger">
+                            <i class="bi bi-trash"></i> Delete
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const containers = document.querySelectorAll('.image-zoom-container');
+
+            containers.forEach(container => {
+                const activeItem = container.querySelector('.carousel-item.active');
+                if (activeItem) {
+                    setupZoom(activeItem);
+                }
+            });
+
+            const carousel = document.getElementById('productCarousel');
+            if (carousel) {
+                carousel.addEventListener('slide.bs.carousel', function(e) {
+                    setTimeout(() => {
+                        const activeItem = e.relatedTarget;
+                        setupZoom(activeItem);
+                    }, 50);
+                });
+            }
+
+            function setupZoom(item) {
+                const img = item.querySelector('.zoomable-image');
+                const lens = item.querySelector('.zoom-lens');
+
+                if (!img || !lens) return;
+
+                img.addEventListener('mouseenter', function() {
+                    lens.style.display = 'block';
+                });
+
+                img.addEventListener('mousemove', function(e) {
+                    const rect = img.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+
+                    if (x < 0 || x > rect.width || y < 0 || y > rect.height) {
+                        lens.style.display = 'none';
+                        return;
+                    }
+
+                    lens.style.display = 'block';
+
+                    const lensSize = 150;
+                    let lensX = x - (lensSize / 2);
+                    let lensY = y - (lensSize / 2);
+
+                    lensX = Math.max(0, Math.min(lensX, rect.width - lensSize));
+                    lensY = Math.max(0, Math.min(lensY, rect.height - lensSize));
+
+                    lens.style.left = lensX + 'px';
+                    lens.style.top = lensY + 'px';
+
+                    const percentX = (x / rect.width) * 100;
+                    const percentY = (y / rect.height) * 100;
+
+                    lens.style.backgroundImage = `url('${img.src}')`;
+                    lens.style.backgroundSize = `${rect.width * 2}px ${rect.height * 2}px`;
+                    lens.style.backgroundPosition = `${percentX}% ${percentY}%`;
+                });
+
+                img.addEventListener('mouseleave', function() {
+                    lens.style.display = 'none';
+                });
+            }
+        });
+    </script>
+}

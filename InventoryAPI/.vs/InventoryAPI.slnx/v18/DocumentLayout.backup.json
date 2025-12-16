@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\services\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\models\\dto\\products\\productupatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\dto\\products\\productupatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\models\\dto\\products\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\dto\\products\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\models\\dto\\products\\productimageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\dto\\products\\productimageuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\models\\dto\\products\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\dto\\products\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\models\\dto\\auth\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\dto\\auth\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\models\\dto\\auth\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\dto\\auth\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\models\\dto\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\models\\dto\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\migrations\\20251210093815_initialcommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\migrations\\20251210093815_initialcommit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\migrations\\20251210094255_initialcommited.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\migrations\\20251210094255_initialcommited.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|c:\\users\\acer\\desktop\\inventory management system\\inventoryapi\\inventoryapi\\migrations\\20251210094133_initialcommiting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA3CF81-82B7-7EA6-DB26-EC631E2CAE39}|InventoryAPI\\InventoryAPI.csproj|solutionrelative:inventoryapi\\migrations\\20251210094133_initialcommiting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "InventoryAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAArwB8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T06:34:49.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Services\\IProductService.cs",
+              "RelativeToolTip": "InventoryAPI\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T06:28:15.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Services\\ProductService.cs",
+              "RelativeToolTip": "InventoryAPI\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T06:29:34.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "InventoryAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\appsettings.json",
+              "RelativeToolTip": "InventoryAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-10T04:37:26.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "InventoryAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T03:50:42.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Services\\JwtService.cs",
+              "RelativeToolTip": "InventoryAPI\\Services\\JwtService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:18:06.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Program.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Program.cs",
+              "RelativeToolTip": "InventoryAPI\\Program.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:18:14.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Services\\IJwtService.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Services\\IJwtService.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Services\\IJwtService.cs",
+              "RelativeToolTip": "InventoryAPI\\Services\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:17:40.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\User.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:17:18.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\ProductImage.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\ProductImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:51:38.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\Product.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:51:25.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductUpateDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Products\\ProductUpateDto.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\DTO\\Products\\ProductUpateDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Products\\ProductUpateDto.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\DTO\\Products\\ProductUpateDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T03:51:17.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Products\\ProductResponseDto.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\DTO\\Products\\ProductResponseDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Products\\ProductResponseDto.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\DTO\\Products\\ProductResponseDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T06:27:35.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductImageUploadDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Products\\ProductImageUploadDto.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\DTO\\Products\\ProductImageUploadDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Products\\ProductImageUploadDto.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\DTO\\Products\\ProductImageUploadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:52:26.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Products\\ProductCreateDto.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\DTO\\Products\\ProductCreateDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Products\\ProductCreateDto.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\DTO\\Products\\ProductCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:51:55.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Auth\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\DTO\\Auth\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Auth\\UserRegisterDto.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\DTO\\Auth\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:17:09.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Auth\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\DTO\\Auth\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Auth\\UserLoginDto.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\DTO\\Auth\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:16:46.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Auth\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Models\\DTO\\Auth\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Models\\DTO\\Auth\\AuthResponseDto.cs",
+              "RelativeToolTip": "InventoryAPI\\Models\\DTO\\Auth\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:14:30.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "InventoryAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:33:19.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20251210094255_InitialCommited.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Migrations\\20251210094255_InitialCommited.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Migrations\\20251210094255_InitialCommited.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Migrations\\20251210094255_InitialCommited.cs",
+              "RelativeToolTip": "InventoryAPI\\Migrations\\20251210094255_InitialCommited.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:42:55.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20251210094133_InitialCommiting.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Migrations\\20251210094133_InitialCommiting.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Migrations\\20251210094133_InitialCommiting.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Migrations\\20251210094133_InitialCommiting.cs",
+              "RelativeToolTip": "InventoryAPI\\Migrations\\20251210094133_InitialCommiting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:41:33.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20251210093815_InitialCommit.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Migrations\\20251210093815_InitialCommit.cs",
+              "RelativeDocumentMoniker": "InventoryAPI\\Migrations\\20251210093815_InitialCommit.cs",
+              "ToolTip": "C:\\Users\\ACER\\Desktop\\Inventory Management System\\InventoryAPI\\InventoryAPI\\Migrations\\20251210093815_InitialCommit.cs",
+              "RelativeToolTip": "InventoryAPI\\Migrations\\20251210093815_InitialCommit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T09:38:15.689Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

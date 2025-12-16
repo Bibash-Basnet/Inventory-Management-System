@@ -1,0 +1,162 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor Accessor
+@{
+    var token = Accessor.HttpContext?.Session.GetString("JWT");
+    var username = Accessor.HttpContext?.Session.GetString("Username");
+    var role = Accessor.HttpContext?.Session.GetString("Role");
+    bool isLoggedIn = !string.IsNullOrEmpty(token);
+    bool isAdmin = role == "Admin";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Simple Inventory</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .content-wrapper {
+            flex-grow: 1;
+            padding: 20px 0;
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.4rem;
+        }
+
+        .footer {
+            background: #1f1f1f;
+            color: #bbb;
+            padding: 20px 0;
+            font-size: 0.95rem;
+            margin-top: auto;
+        }
+
+            .footer a {
+                color: #ddd;
+                text-decoration: none;
+            }
+
+                .footer a:hover {
+                    text-decoration: underline;
+                }
+
+        .center-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+        }
+
+            .center-content .form-container {
+                width: 100%;
+                max-width: 400px;
+                padding: 25px;
+                background: #f8f9fa;
+                border-radius: 8px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            }
+
+        .user-badge {
+            background: rgba(255,255,255,0.1);
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            margin-right: 0.5rem;
+        }
+
+        .admin-badge {
+            background: #ffc107;
+            color: #000;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <i class="bi bi-box-seam"></i> SimpleInventory
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav me-auto">
+                    @if (isLoggedIn)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Product">
+                                <i class="bi bi-box-seam"></i> Products
+                            </a>
+                        </li>
+                    }
+                </ul>
+                <ul class="navbar-nav ms-auto align-items-center">
+                    @if (!isLoggedIn)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Auth/Login">
+                                <i class="bi bi-box-arrow-in-right"></i> Login
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Auth/Register">
+                                <i class="bi bi-person-plus"></i> Register
+                            </a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <span class="user-badge @(isAdmin ? "admin-badge" : "")">
+                                <i class="bi @(isAdmin ? "bi-shield-check" : "bi-person-circle")"></i>
+                                @username
+                                @if (isAdmin)
+                                {
+                                    <span class="badge bg-dark ms-1">Admin</span>
+                                }
+                            </span>
+                        </li>
+                        <li class="nav-item">
+                            <form method="post" action="/Auth/Logout" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-outline-light btn-sm">
+                                    <i class="bi bi-box-arrow-right"></i> Logout
+                                </button>
+                            </form>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container content-wrapper">
+        @RenderBody()
+    </div>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <span>© @DateTime.Now.Year · Simple Inventory Management System</span>
+            @if (isAdmin)
+            {
+                <span class="ms-3 text-warning">
+                    <i class="bi bi-shield-check"></i> Admin Mode Active
+                </span>
+            }
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
